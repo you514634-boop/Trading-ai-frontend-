@@ -1,10 +1,8 @@
-export default function HomePage() {
+export default function Home() {
   return (
-    <main style={{ padding: 24 }}>
-      <h1>Trading AI Assistant</h1>
-      <p>
-        Beginner-friendly AI trading signals for Crypto, Stocks, and Forex.
-      </p>
-    </main>
+    <section>
+      <h1>Welcome — Trading AI Frontend</h1>
+      <p>This is a minimal page to test build & deploy. Use the top-right button to switch fonts.</p>
+    </section>
   );
 }
