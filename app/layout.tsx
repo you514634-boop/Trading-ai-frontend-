@@ -1,10 +1,9 @@
-// ఇది ఉదాహరణ మాత్రమే — మీ అసలైన layout.tsx లోని structure ప్రకారం ప్రతిస్థాపించండి
 import "./globals.css";
 import FontToggleButton from "./components/FontToggleButton";
 
 export const metadata = {
-  title: "My App",
-  description: "Demo",
+  title: "Trading AI Frontend",
+  description: "Minimal Trading AI frontend demo"
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -15,7 +14,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <FontToggleButton />
         </header>
 
-        <main>{children}</main>
+        <main style={{ padding: 24 }}>{children}</main>
       </body>
     </html>
   );
